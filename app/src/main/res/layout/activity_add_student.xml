@@ -36,7 +36,7 @@
         android:inputType="textPersonName" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/date"
+        android:id="@+id/inDate"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/te_Date"
+            android:id="@+id/date"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress">

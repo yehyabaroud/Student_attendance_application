@@ -13,9 +13,6 @@
         android:theme="@style/Theme.FinalProject"
         tools:targetApi="31">
         <activity
-            android:name=".StudentAttendanceRecord"
-            android:exported="false" />
-        <activity
             android:name=".StudentInSubject"
             android:exported="false" />
         <activity
@@ -29,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".studentInformation"
-            android:exported="false" />
-        <activity
-            android:name=".editUser"
             android:exported="false" />
         <activity
             android:name=".daye"

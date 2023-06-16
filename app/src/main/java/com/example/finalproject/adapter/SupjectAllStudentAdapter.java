@@ -18,23 +18,23 @@ import com.example.finalproject.R;
 
 import java.util.ArrayList;
 
-public class SupjectAllStudentAdapter extends RecyclerView.Adapter<SupjectAllStudentAdapter.MyHolder>{
+public class SupjectAllStudentAdapter extends RecyclerView.Adapter<SupjectAllStudentAdapter.MyHolder> {
 
     Context context;
     ArrayList<Students> data;
     onItemClickListener listener;
-        DpHelper dpHelper;
+    DpHelper dpHelper;
 
     public SupjectAllStudentAdapter(Context context, ArrayList<Students> data, onItemClickListener listener) {
         this.context = context;
         this.data = data;
-        this.listener=listener;
+        this.listener = listener;
     }
 
     @NonNull
     @Override
     public MyHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(context).inflate(R.layout.item_stall,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_stall, parent, false);
 
         return new MyHolder(view);
     }
@@ -61,8 +61,6 @@ public class SupjectAllStudentAdapter extends RecyclerView.Adapter<SupjectAllStu
     }
 
 
-
-
     @Override
     public int getItemCount() {
         return data.size();
@@ -82,8 +80,9 @@ public class SupjectAllStudentAdapter extends RecyclerView.Adapter<SupjectAllStu
         }
     }
 
-    public interface onItemClickListener{
-        void onItemDelete(int id,int position);
+    public interface onItemClickListener {
+        void onItemDelete(int id, int position);
+
         void onItemClick(Students students, int position);
     }
 

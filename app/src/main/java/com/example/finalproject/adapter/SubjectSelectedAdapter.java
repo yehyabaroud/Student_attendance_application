@@ -72,7 +72,7 @@ public class SubjectSelectedAdapter extends RecyclerView.Adapter<SubjectSelected
 
         public MyHolder(@NonNull View itemView, ArrayList<Subject> subjectsList) {
             super(itemView);
-            supjectNameCheck = itemView.findViewById(R.id.tv_subject_name);
+            supjectNameCheck = itemView.findViewById(R.id.cb_chick);
             this.subjectsList = subjectsList;
         }
     }

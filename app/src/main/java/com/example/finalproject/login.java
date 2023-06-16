@@ -113,7 +113,7 @@ public class login extends AppCompatActivity {
 
                 }
                 if (remember.isChecked()) {
-                    remember.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.red));
+                    remember.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.blue));
                     policyAccepted = true;
                 } else {
                     remember.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
